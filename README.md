@@ -86,7 +86,8 @@ Besides the original Carracing game `CarRacing-v0`, other carracing variants are
 python train_lusr.py --data-dir data/carla_data/  --data-tag weather  --num-splitted 1  --beta 10 --class-latent-size 8  --content-latent-size 16  --flatten-size 9216   --num-epochs 50  --carla-model  
 ```
 
-2. ppo training on carla autonomous driving
+2. ppo training on carla autonomous driving  
+
 We need an active CARLA server to run ppo training on carla driving task. Please refer https://github.com/KarlXing/gym-carla/blob/master/README.md to install and lanuch the CARLA server. Besides that, we used town07 as the map. So please go to https://github.com/carla-simulator/carla/releases/tag/0.9.6 to download the map of town07 first and refer https://carla.readthedocs.io/en/latest/tuto_A_create_standalone/ to import town07 into the CARLA package.
 
 Once the environment is ready, you can run
