@@ -1,6 +1,6 @@
 # LUSR 
 
-This is the official implementation of **Domain Adaptation In Reinforcement Learning Via Latent Unified State Representation**. The work is accepted by AAAI 2021.  Here is the project website https://sites.google.com/view/lusr.
+This is the official implementation of **Domain Adaptation In Reinforcement Learning Via Latent Unified State Representation**. The work is accepted by AAAI 2021.  Here is the project website https://sites.google.com/view/lusr and paper link https://arxiv.org/abs/2102.05714.
 
 ### Demo
 1. Carracing games  
@@ -100,3 +100,8 @@ xvfb-run -a -s '-screen 0 1400x900x24 +extension RANDR' -- python main_carla.py 
 xvfb-run -a -s '-screen 0 1400x900x24 +extension RANDR' -- python evaluate_carla.py  --weather 1  --model-path checkpoints/policy.pt  --use-encoder  --encoder-path checkpoints/encoder.pt  --num-eval 10
 ```
 You can set weather as 0,1 or 2 to evaluate the domain apdatation performance.
+
+
+
+### Specifal Thanks
+Thank Inhan Kim for pointing out a typo in equation 3. It has been fixed in the latest arxiv version of the paper.
