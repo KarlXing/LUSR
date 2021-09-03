@@ -103,5 +103,5 @@ You can set weather as 0,1 or 2 to evaluate the domain apdatation performance.
 
 
 
-### Specifal Thanks
+### Special Thanks
 Thank Inhan Kim for pointing out a typo in equation 3. It has been fixed in the latest arxiv version of the paper.
